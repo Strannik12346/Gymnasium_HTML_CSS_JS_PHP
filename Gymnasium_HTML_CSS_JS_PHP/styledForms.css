@@ -1,0 +1,271 @@
+#main{
+ margin:auto;
+ width:999px;
+}
+#header{
+ background:#1941c2;
+ background:url(images/Header.jpg);
+ width:100%;
+ height:215px;
+ float:left;
+ text-align:center;
+ color:#FFFFFF;
+ font-size:28px;
+ padding-top:30px;
+}
+#content{
+ background:#7f848f;
+ float:left;
+ width:100%;
+ height:855px;
+ text-align:center;
+ font-size:20px;
+}
+#content1{
+ background:transparent;
+ margin-top:35px;
+ margin-bottom:0px;
+ margin-left:1%;
+ margin-right:1%;
+ border:1px solid transparent;
+ border-radius:10px;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+ -khtml-border-radius:10px;
+ behavior:url(border-radius.htc);
+ float:left;
+ width:98%;
+ height:750px;
+ text-align:center;
+ font-size:20px;
+}
+#footer{
+ background:#2c539e;
+ margin:8px 8px 8px 8px;
+ border:1px solid #2c539e;
+ border-radius:15px;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+ -khtml-border-radius:10px;
+ behavior:url(border-radius.htc);
+ position:relative;
+ z-index:1000;
+ width:983px;
+ height:40px;
+ padding-top:10px;
+ float:left;
+ text-align:center;
+ color:#ffffff;
+ font-size:22px;
+}
+#formForStudentAuthorization{
+ margin:auto;
+ margin-top:5%;
+ padding-top:1%;
+ padding-bottom:1%;
+ width:420px;
+ border:1px solid black;
+ border-radius:10px;
+ -moz-border-radius:10px;
+ -webkit-border-radius:10px;
+ -khtml-border-radius:10px;
+ behavior:url(border-radius.htc);
+ background:#fefcea;
+ background:linear-gradient(to top, #fefcea, #f1da36);
+ font-size:18px;
+}
+#formForStudentRegistration{
+ margin:auto;
+ margin-top:5%;
+ padding-top:1%;
+ padding-bottom:1%;
+ width:400px;
+ border:1px solid black;
+ border-radius:10px;
+ -moz-border-radius:10px;
+ -webkit-border-radius:10px;
+ -khtml-border-radius:10px;
+ behavior:url(border-radius.htc);
+ background:#fefcea;
+ background:linear-gradient(to top, #fefcea, #f1da36);
+ font-size:18px;
+}
+#formForTeacherAuthorization{
+ margin:auto;
+ margin-top:5%;
+ padding-top:1%;
+ padding-bottom:1%;
+ width:320px;
+ border:1px solid black;
+ border-radius:10px;
+ -moz-border-radius:10px;
+ -webkit-border-radius:10px;
+ -khtml-border-radius:10px;
+ behavior:url(border-radius.htc);
+ background:#fefcea;
+ background:linear-gradient(to top, #fefcea, #f1da36);
+ font-size:18px;
+}
+#formForProfileRedaction{
+ margin:auto;
+ margin-top:5%;
+ padding-top:1%;
+ padding-bottom:1%;
+ width:400px;
+ border:1px solid black;
+ border-radius:10px;
+ -moz-border-radius:10px;
+ -webkit-border-radius:10px;
+ -khtml-border-radius:10px;
+ behavior:url(border-radius.htc);
+ background:#fefcea;
+ background:linear-gradient(to top, #fefcea, #f1da36);
+ font-size:18px;
+}
+#accounts{
+ background:#73b1e7;
+ background:linear-gradient(to bottom, #d0e4f7 0%, #73b1e7 15%, #549AD3 50%, #539fe1 85%, #87bcea 100%);
+ margin-top:25px;
+ margin-bottom:0px;
+ margin-left:1%;
+ margin-right:1%;
+ border:1px solid #406a99;
+ border-radius:10px;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+ -khtml-border-radius:10px;
+ behavior:url(border-radius.htc);
+ float:left;
+ width:31%;
+ height:350px;
+ text-align:center;
+ font-size:20px;
+}
+#accounts:hover{
+ background:#9bcceb;
+ margin-top:25px;
+ margin-bottom:0px;
+ margin-left:1%;
+ margin-right:1%;
+ border:1px solid #406a99;
+ border-radius:10px;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+ -khtml-border-radius:10px;
+ behavior:url(border-radius.htc);
+ float:left;
+ width:31%;
+ height:350px;
+ text-align:center;
+ font-size:20px;
+}
+#accountsHeader{
+ background:#73b1e7;
+ background:linear-gradient(to bottom, #d0e4f7 0%, #73b1e7 35%, #549AD3 50%, #539fe1 65%, #87bcea 100%);
+ margin-top:0px;
+ margin-bottom:0px;
+ margin-left:1%;
+ margin-right:1%;
+ border:1px solid #406a99;
+ border-radius:10px;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+ -khtml-border-radius:10px;
+ behavior:url(border-radius.htc);
+ float:left;
+ width:98%;
+ height:80px;
+ text-align:center;
+ font-size:20px;
+}
+body{
+ background:url(images/Background.jpg);
+ font-family: 'trebuchet MS', 'Lucida sans', Arial;
+}
+input[type=submit], input[type=button]{
+ font-size:17px;
+ font-weight:bold;
+ border-radius:20px;
+ -moz-border-radius:20px;
+ -webkit-border-radius:20px;
+ -khtml-border-radius:20px;
+ behavior:url(border-radius.htc);
+ color:white;
+}
+input[type=submit]:hover, input[type=button]:hover{
+ font-size:17px;
+ font-weight:bold;
+ border-radius:20px;
+ -moz-border-radius:20px;
+ -webkit-border-radius:20px;
+ -khtml-border-radius:20px;
+ behavior:url(border-radius.htc);
+ color:white;
+ cursor:pointer;
+}
+input[type=submit]{
+ background-color:#2074a8;
+}
+input[type=submit]:hover{
+ background-color:#598dc9;
+}
+input[type=button]{
+ background-color:#468f42;
+ width:140px;
+}
+input[type=button]:hover{
+ background-color:#bf4949;
+ width:140px;
+}
+input[type="text"], input[type="password"]{
+ border: 1px solid #877e7e;
+ border-radius:2px;
+ -webkit-border-radius:2px;
+ -moz-border-radius:2px;
+ -khtml-border-radius:2px;
+ behavior:url(border-radius.htc);
+ background:#dde2ed;
+ height:20px;
+ width:190px;
+ text-indent:2px;
+}
+input[type="text"]{
+ color:#2e2929;
+ font-size:16px;
+}
+input[type="password"]{
+ color:#2e2929;
+ font-size:20px;
+}
+table{
+ border-spacing:4px 4px;
+}
+.sign{
+ height:130px;
+ width:130px;
+}
+.submitBtn1{
+ width:140px;
+ height:28px;
+}
+.submitBtn2{
+ width:190px;
+ height:28px;
+}.proveBtn{
+ background-color:#2074a8 !important;
+}
+.proveBtn:hover{
+ background-color:#598dc9 !important;
+}
+.head_of_index{
+ color:#453aab !important;
+ margin: 15px 0px 0px 0px;
+}
+.accountsHead{
+ margin: 20px 15px 10px 15px;
+}
+.accountsText{
+ margin: 0px 15px 0px 15px;
+ text-indent:10px;
+ font-size:18px;
+}
